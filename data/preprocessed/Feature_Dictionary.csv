@@ -1,0 +1,52 @@
+Column_Name,Description
+Application order,Application order (scaled)
+Previous qualification (grade),Previous qualification grade (scaled)
+Admission grade,Admission grade (scaled)
+Age at enrollment,Age at enrollment (scaled)
+Curricular units 1st sem (credited),Units credited in 1st semester
+Curricular units 1st sem (enrolled),Units enrolled in 1st semester
+Curricular units 1st sem (evaluations),Evaluations taken in 1st semester
+Curricular units 1st sem (approved),Units approved in 1st semester
+Curricular units 1st sem (grade),Average grade in 1st semester
+Curricular units 1st sem (without evaluations),Units without evaluations in 1st semester
+Curricular units 2nd sem (credited),Units credited in 2nd semester
+Curricular units 2nd sem (enrolled),Units enrolled in 2nd semester
+Curricular units 2nd sem (evaluations),Evaluations taken in 2nd semester
+Curricular units 2nd sem (approved),Units approved in 2nd semester
+Curricular units 2nd sem (grade),Average grade in 2nd semester
+Curricular units 2nd sem (without evaluations),Units without evaluations in 2nd semester
+Is_Mature_Student,"1 if age > 23, else 0"
+First_Generation_Student,"1 if both parents have Basic/Secondary education, else 0"
+Financial_Risk_Flag,"1 if debtor OR tuition not up to date, else 0"
+Pass_Rate_1st_Sem,Approved/Enrolled ratio in 1st sem (0-1)
+Pass_Rate_2nd_Sem,Approved/Enrolled ratio in 2nd sem (0-1)
+Evaluation_Load_Ratio_1st_Sem,Evaluations/Enrolled ratio in 1st sem
+Evaluation_Load_Ratio_2nd_Sem,Evaluations/Enrolled ratio in 2nd sem
+Target_Encoded,"0=Dropout, 1=Enrolled, 2=Graduate"
+Marital status_Single,TRUE if student is Single
+Gender_Male,TRUE if student is Male (FALSE = Female)
+Daytime/evening attendance_Evening,TRUE if Evening attendance (FALSE = Daytime)
+Course_Health Sciences,TRUE if enrolled in Health Sciences course
+Course_STEM,TRUE if enrolled in STEM course
+Course_Social & Humanities,TRUE if enrolled in Social & Humanities course
+Application mode_Other Special,TRUE if Other Special application mode
+Application mode_Special/Non-Traditional,"TRUE if Special/Non-Traditional mode (Over 23, Transfer, etc.)"
+Previous qualification_Higher Education,TRUE if previous qual is Higher Education
+Previous qualification_Vocational/Technical,TRUE if Vocational/Technical
+Mother's qualification_Higher Education,TRUE if mother has Higher Education
+Mother's qualification_Vocational/Technical,TRUE if mother has Vocational/Technical
+Father's qualification_Higher Education,TRUE if father has Higher Education
+Father's qualification_Vocational/Technical,TRUE if father has Vocational/Technical
+Mother's occupation_Clerical/Service,TRUE if mother in Clerical/Service job
+Mother's occupation_Professional/Managerial,TRUE if mother in Professional/Managerial job
+Mother's occupation_Student,TRUE if mother is Student
+Mother's occupation_Unknown/Not Reported,TRUE if mother occupation unknown
+Father's occupation_Clerical/Service,TRUE if father in Clerical/Service job
+Father's occupation_Professional/Managerial,TRUE if father in Professional/Managerial job
+Father's occupation_Student,TRUE if father is Student
+Father's occupation_Unknown/Not Reported,TRUE if father occupation unknown
+Displaced_Yes,TRUE if student is displaced
+Debtor_Yes,TRUE if student is a debtor
+Tuition fees up to date_Yes,TRUE if tuition fees are up to date
+Scholarship holder_Yes,TRUE if student has scholarship
+International_Yes,TRUE if international student
